@@ -1,0 +1,49 @@
+Meta 
+Information about the web page 
+ Entites in HTML 
+
+css validator 
+https://jigsaw.w3.org/css-validator/
+
+HTML  validator 
+https://validator.w3.org/
+
+
+like we paste the <HTML>
+so we need the entities we use &lt; HTML &gt
+https://www.w3schools.com/html/html_entities.asp
+
+we can use to old HTML 
+  <a href="aboutus.html">aboutus</a>
+
+This is theHTML5
+we can acces teh folder by ...
+    <a href="../Frontend/aboutus.html"> aboutus</a>
+we can also acces the folder by / 
+    <a href="/company/index.html"> aboutus</a>
+
+
+How we download the image by the add attribute to download of we click the link the image is automaticaaly download 
+  <a href="/company/img1.png" download="">Image</a>
+
+The object-fit CSS property is used to specify how an <img> or <video> element should be resized to fit its container.
+
+
+We can also used for list are description list 
+<dl> stand for description list </d>
+we can after this put description term 
+like 
+<dt>HTML</dt>
+<dd> stand for description detail element after the <dt>
+
+
+<dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+
+
+        <dt>CSS</dt>
+        <dd>Casacding stylesheet</dd>
+
+
+    </dl>
