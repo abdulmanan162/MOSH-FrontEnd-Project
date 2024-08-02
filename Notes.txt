@@ -11,6 +11,7 @@ https://validator.w3.org/
 
 like we paste the <HTML>
 so we need the entities we use &lt; HTML &gt
+for this output <HTML>
 https://www.w3schools.com/html/html_entities.asp
 
 we can use to old HTML 
