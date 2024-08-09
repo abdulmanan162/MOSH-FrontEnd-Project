@@ -61,3 +61,18 @@ colspan can slipt the row into according the number according to theis example a
 </tfoot>
 
 t foot are used for the table last and this is used for find total things 
+
+
+Block level element are those that contain the 
+block level element is a line that fill up the text and available entire line 
+
+
+<p> <div class="higlight">lorem</div>ipsum dolor sit amet.</p>
+
+div are block elemnet that why it fill block and new line start from ipsum
+
+ <p>
+        <span class="higlight">lorem</span>ipsum dolor sit amet.
+    </p>
+    span is a inline elemnt it only highlight the word not line 
+     
