@@ -76,3 +76,35 @@ div are block elemnet that why it fill block and new line start from ipsum
     </p>
     span is a inline elemnt it only highlight the word not line 
      
+--------------article
+
+The <article> element in HTML5 is used to define a self-contained piece of content, such as a blog post or news article, that can be independently distributed or reused. It enhances document structure, SEO, and accessibility.
+
+Example:
+
+html
+Copy code
+<article>
+    <h1>HTML5 Overview</h1>
+    <p>HTML5 introduces new features to improve web development, including multimedia support and better semantics.</p>
+</article>
+
+-----------Figure
+
+The <figure> element in HTML5 is used to group media content, such as images, diagrams, or code snippets, along with their captions provided by the <figcaption> element. It is used to create a self-contained content block that can be referenced from the main flow of the document.
+
+Example:
+
+html
+Copy code
+<figure>
+    <img src="example.jpg" alt="Example Image">
+    Figure caption is used to expalin the  image
+    <figcaption>Figure 1: An example image with a caption.</figcaption>
+</figure>
+
+-------------- Mark elemnet
+mark element is used to higlight the word or snetence by put the word  
+
+-------------Time
+The <time> element in HTML5 is a semantic element used to represent specific times and dates. It allows for machine-readable formatting of dates and times, making it easier for browsers, search engines, and other applications to understand and process time-related data.
