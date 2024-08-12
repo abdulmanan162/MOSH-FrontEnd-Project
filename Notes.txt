@@ -108,3 +108,5 @@ mark element is used to higlight the word or snetence by put the word
 
 -------------Time
 The <time> element in HTML5 is a semantic element used to represent specific times and dates. It allows for machine-readable formatting of dates and times, making it easier for browsers, search engines, and other applications to understand and process time-related data.
+
+The <time> element in HTML5 is a semantic element used to represent specific times and dates. It allows for machine-readable formatting of dates and times, making it easier for browsers, search engines, and other applications to understand and process time-related data.
