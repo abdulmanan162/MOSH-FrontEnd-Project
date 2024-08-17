@@ -110,3 +110,69 @@ mark element is used to higlight the word or snetence by put the word
 The <time> element in HTML5 is a semantic element used to represent specific times and dates. It allows for machine-readable formatting of dates and times, making it easier for browsers, search engines, and other applications to understand and process time-related data.
 
 The <time> element in HTML5 is a semantic element used to represent specific times and dates. It allows for machine-readable formatting of dates and times, making it easier for browsers, search engines, and other applications to understand and process time-related data.
+
+
+CSS Selector 
+
+Type        body { color: white;}    Body is called selector 
+ 
+ID
+Classes
+Attributes
+
+
+Attributes 
+. [attr*="value"]
+Description: Selects elements where the attribute value contains the specified value anywhere within it.
+a[href*="google"] {
+  color: red;
+}
+
+
+[attr$="value"]
+Description: Selects elements where the attribute value ends with the specified value.
+img[src$=".png"] {
+  border: 1px solid blue;
+}
+
+
+[attr^="value"]
+Description: Selects elements where the attribute value starts with the specified value.
+
+
+a[href^="https"] {
+  text-decoration: underline;
+}
+
+
+4. [attr|="value"]
+Description: Selects elements where the attribute value is either exactly equal to the specified value or starts with the value followed by a hyphen (typically used for language codes).
+
+[lang|="en"] {
+  color: green;
+}
+
+
+
+[attr~="value"]
+Description: Selects elements where the attribute value is a space-separated list of words, one of which is exactly equal to the specified value.
+[class~="button"] {
+  font-weight: bold;
+}
+
+
+
+[attr="value"]
+Description: Selects elements where the attribute is exactly equal to the specified value.
+
+a[target="_blank"] {
+  color: blue;
+}
+
+
+
+[attr]
+Description: Selects elements that have the specified attribute, regardless of its value.
+img[alt] {
+  border: 2px solid red;
+}

@@ -1,0 +1,11 @@
+body{
+margin: 10px;
+}
+
+#Paragrapgh-1{
+    background-color: yellow;
+    color: white;
+}
+a[href*=google]{
+    color: red;
+}
