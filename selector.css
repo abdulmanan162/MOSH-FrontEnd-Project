@@ -9,3 +9,17 @@ margin: 10px;
 a[href*=google]{
     color: red;
 }
+
+#product ~ p{
+    color: yellow;
+}
+/* 
+In CSS, the > symbol is a child combinator. It is used to select elements that are direct children of a specified parent. */
+
+
+/* 
+Child Combinator (>): Selects direct children.
+Descendant Combinator (Space): Selects all descendants, no matter how deep.
+Adjacent Sibling Combinator (+): Selects the immediate sibling that follows an element.
+General Sibling Combinator (~): Selects all siblings of a specified element 
+*/
