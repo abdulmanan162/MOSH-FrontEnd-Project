@@ -31,3 +31,15 @@ a:focus{
 ul li:nth-child(3n){
     color: blue;
 }
+
+
+/* In pesudo element we style part of an element 
+ */
+ /* example : First letter */ 
+ /* we used :: for pesudo element  */
+
+
+  /* In pesudo classes to style element in a particular state */
+
+  /* Example hovered  anchor */
+   /* we used : for pesudo classes  */

@@ -176,3 +176,17 @@ Description: Selects elements that have the specified attribute, regardless of i
 img[alt] {
   border: 2px solid red;
 }
+
+
+
+/* In pesudo element we style part of an element 
+ */
+ /* example : First letter */ 
+ /* we used :: for pesudo element  */
+
+
+  /* In pesudo classes to style element in a particular state */
+
+  /* Example hovered  anchor */
+
+     /* we used : for pesudo classes  */
