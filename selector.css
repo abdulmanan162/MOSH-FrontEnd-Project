@@ -23,3 +23,21 @@ Descendant Combinator (Space): Selects all descendants, no matter how deep.
 Adjacent Sibling Combinator (+): Selects the immediate sibling that follows an element.
 General Sibling Combinator (~): Selects all siblings of a specified element 
 */
+
+h1{
+    color: green;
+
+}
+/* element h1   Selector Specificity: (0, 0, 1) */
+
+.highlight{
+    color: brown;
+}
+
+/* class Selector Specificity: (0, 1, 0) */
+
+#highlight1{
+    color: pink;
+}
+
+/* Id Selector Specificity: (1, 0, 0) */
