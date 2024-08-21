@@ -27,3 +27,7 @@ a:hover{
 a:focus{
     color: aqua;
 }
+
+ul li:nth-child(3n){
+    color: blue;
+}
