@@ -6,5 +6,31 @@
 .box{
     width: 400px;
     height: 500px;
-    background-color: yellow;
+    background-color: rgb(176, 163, 18);
+}
+/* we use direct color or also use rbg color  */
+
+.box{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(176, 163, 18,0.5);
+}
+ /* alpha use for transparent 0 and 1 0 is completely transparent and 1 is completely opeqaue */
+
+ .box{
+    width: 400px;
+    height: 500px;
+    background-color: #b0a312;
+}
+
+ .box{
+    width: 400px;
+    height: 500px;
+    background-color:hsl(55, 81%, 38% )
+}
+/* we donot use degree sign in hsl  */
+.box{
+   width: 400px;
+   height: 500px;
+   background-color:hsla(55, 81%, 38% ,0.5)
 }
