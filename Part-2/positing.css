@@ -1,0 +1,41 @@
+body{
+    margin: 10px;
+    height: 200vh;
+}
+/* 
+POSITIONING Relative: relative to the element's normal position 
+Absolute: relative to the parent
+ Fixed: relative to the viewport
+  */
+.boxes{
+    border: 10px solid lightgrey;
+    position: relative;
+    
+}
+
+.box{
+    width: 5rem;
+    height: 5rem;
+
+}
+/* position is static there is no postion it is by default  */
+.box-1{
+    background-color: yellow;
+
+}
+.box-2{
+    background-color: green;
+    /* position: absolute; */
+    position: fixed;
+    top:0 ;
+    left: 0;
+    /* position: relative;     relative position is a normal position  */
+/* top:2rem; */
+/* left: 2rem;
+bottom:2rem; */
+    /* z-index: 1; */
+    /* by deafult it value is zero and 1 mean close to us and -1 mean away from us  */
+}
+.box-3{
+    background-color: pink;
+}
