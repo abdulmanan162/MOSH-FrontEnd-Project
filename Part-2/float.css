@@ -1,0 +1,26 @@
+
+
+/* paremt element do not see the float element this is invisble  */.avator{
+    width: 5rem;
+    height: 5rem;
+    background-color: yellow;
+    float: left;
+    margin-right: 1rem;
+    
+}
+/* if we want the paragrapgh are not float the  we used this clear  */
+/* paremt element do not see the float element this is invisble  */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clear{
+    /* clear: left;
+    clear: right; */
+    clear: both;
+}
+
+.tweet{
+    border: 2px solid lightgrey;
+}
