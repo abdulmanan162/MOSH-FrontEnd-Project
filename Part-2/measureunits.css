@@ -1,0 +1,35 @@
+html{
+    /* font size of 62.5% of 16px=10px */
+    font-size: 62.5%;
+}
+
+.box{
+
+    /* 10 x font size of te root ement and root element are the HTML  */
+    width: 15rem ;
+    /* 15*10=150px */
+
+    /* em is multiply by the default size of font is 10 X fontsize(16px)=160px; */
+    /* width: 15em; */
+    
+/* width of the parent element
+    width: 50%;
+     */
+    height: 50vh;
+    background-color: gold;
+    border:3px solid orange;
+}
+
+/* 
+vh (Viewport Height): This unit is relative to 1% of the viewport's height. For example, 100vh would be 100% of the height of the browser window, filling the entire vertical space.
+
+vw (Viewport Width): This unit is relative to 1% of the viewport's width. For example, 100vw would be 100% of the width of the browser window, filling the entire horizontal space. */
+
+/* 
+em
+Relative to the parent element: The em unit is relative to the font size of the nearest parent element. For example, if a parent element has a font size of 16px and you set the child element's font size to 2em, the child element's font size would be 32px (2 times 16px). */
+
+/* 
+rem
+Relative to the root element: The rem unit stands for "root em" and is relative to the font size of the root element (<html>). Typically, the root element's font size is set to 16px by default in most browsers. If you set an element's size to 2rem, it will be 32px regardless of its parent element's font size.
+Consistent sizing: Using rem ensures that sizes are consistent across the entire document because they are all based on the root font size. */
