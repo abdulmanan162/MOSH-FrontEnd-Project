@@ -1,0 +1,40 @@
+p{
+    color: blue;
+    border: 2px solid black;
+}
+
+/* It inhertiance the strong elment and give the blue color */
+strong{
+    color: initial;
+    border: inherit;
+}
+/* if we do not inhertiance the blue color then we use the property intial  */
+
+
+
+ 
+/* 
+
+How to Control Inheritance:
+Using the inherit value: Forces a property to inherit its value from its parent element, even if it's not an inherited property by default.
+Using the initial value: Resets the property to its initial value.
+Using the unset value: Resets the property to its inherited value if it is inheritable, otherwise it resets to its initial value.
+Example:
+          
+      
+ body {
+    color: black;   Inherited by all children 
+    font-family: Arial, sans-serif;  Inherited by all children  
+} 
+
+h1 {
+    font-size: 2em;  Inherited by children if not overridden 
+}
+
+p {
+    color: inherit;  Will explicitly inherit the color from the parent 
+    margin: 10px; Not inherited 
+}
+In this example, all elements within the body will inherit the color and font-family properties, but not the margin. The p element explicitly inherits the color using inherit.
+ 
+ */
