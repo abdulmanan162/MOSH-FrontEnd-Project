@@ -1,0 +1,21 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background : blue;
+/*
+    box-shadow: 10px ;  first mean positive shadow is right side 
+    box-shadow: -10px ; first mean positive shadow is left side   
+
+    */
+    
+    /* box-shadow: right/left up/down blur shadow value  color; */
+   
+}
+.box:hover{
+    box-shadow: 10px 20px 10px grey;
+    transition: all 1s;
+ 
+}
+h1{
+    text-shadow: 10px 10px 10px grey;
+}
