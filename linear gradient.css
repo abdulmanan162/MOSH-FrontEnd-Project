@@ -1,0 +1,17 @@
+.box{
+    /* background: linear-gradient(dodgerblue,yellow ); */
+    width: 400px;
+    height: 400px;
+    /* background: linear-gradient(to right, dodgerblue,yellow ); */
+    /* background: linear-gradient(to bottom right, dodgerblue,yellow ); */
+    /* it start from to left to right  */
+
+    /* background: linear-gradient(45deg, dodgerblue,yellow 10% );
+    background: linear-gradient(45deg, dodgerblue,yellow , red ); */
+
+    /* background: radial-gradient(white , yellow); */
+    /* radial gradient make the around the yellow colour and in center of box teh white circle is made  */
+background: radial-gradient(circle at top left, white , yellow);
+    /* we can also change the position of the corcle  */
+}
+
