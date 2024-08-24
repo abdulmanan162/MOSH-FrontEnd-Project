@@ -190,3 +190,8 @@ img[alt] {
   /* Example hovered  anchor */
 
      /* we used : for pesudo classes  */
+
+
+
+
+         /* border-width: top right bottom left;

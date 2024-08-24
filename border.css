@@ -1,0 +1,14 @@
+.box{
+    width: 1200px;
+    height: 1200px;
+    background:#1e90ff;
+    /* border: 14px solid blue; */
+    /* border: 14px dotted blue; */
+    border: 14px dashed blue;
+    border-top: 14px solid blue;
+  
+    /* border-width: top right bottom left; */
+    border-width: 20px 12px 40px 25px;   /*  trbl*/
+
+    border-radius: 100%;
+}
