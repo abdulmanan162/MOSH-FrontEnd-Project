@@ -1,4 +1,21 @@
-p{
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+/* This universial is not apply in pesudo element, pesudo element are the before and after 
+So it solution is we can write the *::before,*::after
+*/
+
+
+/* 
+border-box 
+Border-box: The width and height properties include the content, padding, and borders. This means that padding and borders are included within the specified width and height. */
+
+/* 
+Content-box (default):
+ The width and height properties include only the content. Padding and borders are added to the outside of the box, increasing the total size. */
+
+ 
+  p{
     margin: 20px;
     padding: 0px;
     /* border: 5px solid rgb(217, 240, 17);
@@ -6,4 +23,47 @@ p{
      
 
      /* margin are colapse bu the padding are not collapse  */
+/* 
+     In web design and front-end development, "box-sizing" is a CSS property that determines how the width and height of an element are calculated. */
+} 
+
+.box{
+    width:100px ;
+    height:100px ;
+    background-color: gold;
+    padding:20px;
+    border: 10px solid brown;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
 }
+ 
+/* 
+Block Elements
+Display: Block elements take up the full width available, which means they stretch from the left to the right of their parent container (unless width is explicitly set).
+
+New Line: Block elements always start on a new line. This means that content following a block element will appear on the next line.
+
+Height and Width: You can set the height and width of block elements explicitly using CSS.
+
+Examples: <div>, <p>, <h1> - <h6>, <ul>, <ol>, <li>, <header>, <footer>, <section>, <article>, and more. */
+/* 
+Inline Elements
+Display: Inline elements only take up as much width as their content requires. They do not automatically start on a new line, meaning they flow with the content.
+
+No New Line: Inline elements do not start on a new line. Multiple inline elements can sit next to each other on the same line.
+
+Height and Width: You cannot set the width or height of inline elements. These properties are ignored, though padding and margins can still affect the space around the content.
+
+Examples: <span>, <a>, <strong>, <em>, <img>, <br>, <label>, and more.
+  */
+
+  .box1{
+ display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+
+  }
+  .box1::before{
+    content: 'Hello';
+  }

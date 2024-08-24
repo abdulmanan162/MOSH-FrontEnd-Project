@@ -1,0 +1,30 @@
+ 
+border-box 
+Border-box: The width and height properties include the content, padding, and borders. This means that padding and borders are included within the specified width and height. 
+
+ 
+Content-box (default):
+ The width and height properties include only the content. Padding and borders are added to the outside of the box, increasing the total size. 
+
+
+ Inline Elements
+Display: Inline elements only take up as much width as their content requires. They do not automatically start on a new line, meaning they flow with the content.
+
+No New Line: Inline elements do not start on a new line. Multiple inline elements can sit next to each other on the same line.
+
+Height and Width: You cannot set the width or height of inline elements. These properties are ignored, though padding and margins can still affect the space around the content.
+
+Examples: <span>, <a>, <strong>, <em>, <img>, <br>, <label>, and more.
+
+Block Elements
+Display: Block elements take up the full width available, which means they stretch from the left to the right of their parent container (unless width is explicitly set).
+
+New Line: Block elements always start on a new line. This means that content following a block element will appear on the next line.
+
+Height and Width: You can set the height and width of block elements explicitly using CSS.
+
+Examples: <div>, <p>, <h1> - <h6>, <ul>, <ol>, <li>, <header>, <footer>, <section>, <article>, and more.
+
+
+An inline-block element in HTML is a type of element that combines characteristics of both inline and block elements. It allows elements to flow inline with other elements (like inline elements) while still allowing you to set their width, height, and margins (like block elements).
+
