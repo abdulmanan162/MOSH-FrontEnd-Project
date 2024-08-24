@@ -1,0 +1,13 @@
+.box{
+    border: 10px solid yellow;
+    width: 150px;
+    height: 150px;
+    /* overflow: hidden;     */
+  /* overflow: scroll;     */
+     /*  overflow:visible ; by default     */
+     /* overflow: auto; scroll only appear when the overflow is need  */
+     overflow: auto;
+     /* overflow-y: hidden;
+     overflow-x: hidden; */
+    overflow: hidden auto;
+}
