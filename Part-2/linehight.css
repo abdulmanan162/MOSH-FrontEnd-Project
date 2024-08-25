@@ -2,8 +2,42 @@ body{
     margin: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
-    line-height: 1.5rem;
+    /* line-height: 1.5rem;
     letter-spacing: 1px ;
-    word-spacing: 5px;
-    
+    word-spacing: 5px; */
+ 
+}
+
+p{
+    /* text-align: center;
+    text-align: left; */
+    /* text-align: right; */
+
+
+    /* text-indent: 12rem; */
+    /* It is a space start from the pargrapgh it produce it   */
+
+   /* text-decoration: underline; */
+
+   /* text-transform: capitalize; */
+
+   /* white-space: nowrap; */
+   /* It make the hortizanl and convert para into on line  */
+
+  
+
+    /* text-overflow: ellipsis; */
+ /* if our text is overflow then we use hidden so the .... property we use is */
+    /* 
+overflow: hidden;
+    border: 3px solid gold; */
+
+
+    column-count: 2;
+    /* column count can divide the column in 2 picesces */
+    column-gap: 1rem;
+
+    /* we can also drraw the line in the column  */
+
+    column-rule: 3px dotted grey;
 }
