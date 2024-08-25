@@ -1,0 +1,77 @@
+.container{
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px; */
+    /* grid-template-columns: 100px 100px; */
+
+
+    /* grid-template-columns: repeat(2, 100px); */
+    /* grid-template-rows: repeat(3, 100px); */
+
+
+    /* grid-template: rows / Column; */
+    /* grid-template:repeat(3,100px)/ repeat(2,100px); */
+    /* grid-template: repeat(3, 100px)/30% 70%; */
+
+    /* use fr fraction rather than percentage because t cover the free spaces  */
+    /* grid-template: repeat(3, 100px)/ 100px 30fr 70fr; */
+row-gap: 10px   ;
+column-gap: 10px;
+/* gap: row  column; */
+gap: 10px 20px;
+
+grid-template-areas:
+"header header"
+"Sidebar main"
+"footer footer";
+    
+    /* border: 3px solid lightgrey; */
+/* justify-items: sart, center, end; */
+/* justify-items: center; */
+ /* jusitfy content (along the horizontal axis) */
+/* align-items: center;
+justify-content: center;
+align-content: center; */
+height: 100vh;
+}
+
+/* jusitfy content (along the horizontal axis) */
+/* align-items (along the vertical axis) */
+.box{
+    /* width: 5rem;
+    height: 5rem; */
+    background-color: yellow;
+ 
+}
+
+.box-one{
+    /* grid-column: 2; */
+    /* we can alos use for grid for bloak item in line number 3 */
+    /* grid-column: 1/4; */
+    /* we can also use negative one for these are the same things it move to 1 and move to right one  */
+    /* grid-column: 1/-1; */
+
+    /* we can also span the element  */
+    /* grid-column: 1/ span 3; */
+
+    /* grid-row: 2/4; */
+    /* grid-row: 2/span 2; */
+
+
+    /* start /end */
+    /* row /column  */
+
+    /* grid-area: 1/ 1/ 1/ 3; */
+
+    grid-area: header;
+
+}
+.box-two{
+    grid-area: main;
+}
+.box-three{
+    grid-area: Sidebar;
+}
+
+.box-four{
+    grid-area: footer;
+}
