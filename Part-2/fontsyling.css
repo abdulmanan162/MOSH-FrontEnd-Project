@@ -1,0 +1,16 @@
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+}
