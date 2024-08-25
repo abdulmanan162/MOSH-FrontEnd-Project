@@ -1,0 +1,7 @@
+.first{
+    /* display: none; */
+    /* it make the display to none it doesnot cover the space  */
+
+    visibility: hidden;
+    /* It take space because this is hidden not remove  */
+}
