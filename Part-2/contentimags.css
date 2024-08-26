@@ -1,0 +1,21 @@
+body{
+    background: url(../Images/5.png);
+    background-repeat: no-repeat;
+    
+    /* we can change the position property by this  */
+    background-position: 100px 100px;
+
+    /* we can also change the background size  */
+    background-size: 200px 200px;
+    background-size: 100% 100%;
+
+
+    /* In this case we can you use this cover one  */
+    background-size: cover; 
+    height: 300vh;
+
+    /* we can also fixed the  background  */
+
+    background-attachment: fixed;
+
+}
